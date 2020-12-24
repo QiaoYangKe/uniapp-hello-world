@@ -1,0 +1,1 @@
+<view><view class="box" hover-stay-time="{{2000}}" hover-class="box-active" hover-stop-propagation>盒子</view><button size="mini" type="primary" hover-stop-propagation="{{true}}">按钮</button><button size="mini" type="primary" disabled="{{true}}" hover-stop-propagation="{{true}}">按钮</button><image src="../../static/logo.png" mode="aspectFit"></image></view>

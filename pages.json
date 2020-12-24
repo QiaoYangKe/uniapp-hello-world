@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+		    "path" : "pages/list/list",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 200
+			}
+		    
+		},
+		{
+		    "path" : "pages/message/message"	    
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+        ,{
+            "path" : "pages/detail/detail"         
+        }
+        ,{
+            "path" : "pages/uni-style/uni-style"
+        }
+       
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath":"static/index-0.png",
+				"selectedIconPath":"static/index-1.png"
+			},
+			{
+				"text": "信息",
+				"pagePath": "pages/message/message",
+				"iconPath":"static/hot-0.png",
+				"selectedIconPath":"static/hot-1.png"
+			},
+			{
+				"text": "学习",
+				"pagePath": "pages/uni-style/uni-style",
+				"iconPath":"static/hot-0.png",
+				"selectedIconPath":"static/hot-1.png"
+			}
+		]
+	},
+	"condition": {
+		"current":0,
+		"list":[
+			{
+				"name": "详情页",
+				"path":"pages/detail/detail",
+				"query":"id=80"
+			}
+		]
+	}
+}

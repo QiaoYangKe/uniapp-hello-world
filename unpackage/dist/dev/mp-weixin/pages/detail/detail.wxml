@@ -1,0 +1,1 @@
+<view>{{''+title+''}}<block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__"><view>{{item.name}}</view></block></view>

@@ -1,0 +1,11 @@
+page {
+	color: green;
+}
+.box {
+	width: 375rpx;
+	height: 50px;
+	background: #008000;
+	font-size: 16rpx;
+	color: white;
+}
+

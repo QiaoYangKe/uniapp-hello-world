@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/message/message",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/uni-style/uni-style"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index-0.png",
+        "selectedIconPath": "static/index-1.png"
+      },
+      {
+        "text": "信息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/hot-0.png",
+        "selectedIconPath": "static/hot-1.png"
+      },
+      {
+        "text": "学习",
+        "pagePath": "pages/uni-style/uni-style",
+        "iconPath": "static/hot-0.png",
+        "selectedIconPath": "static/hot-1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
